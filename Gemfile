@@ -31,6 +31,19 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+
+  # 2020/02/25 初期登録
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'factory-bot-rails'
+  gem 'rails_best_practices'
+  gem 'guard-rspec', require: false
+  gem 'guard-rubocop', require: false
+  gem 'rubocop', require: false
+  gem 'rubocop-rails', require: false
+  gem 'better_errors'
+  gem 'binding_of_caller', require: false
+  # 2020/02/25 ここまで初期登録
 end
 
 group :development do
@@ -48,7 +61,18 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
+
+  # 2020/02/25 初期登録
+  gem 'rspec-rails'
+  # 2020/02/25 ここまで初期登録
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# 2020/02/25 初期登録
+  gem 'sorcery'
+  gem 'font-awesome-sass'
+  gem 'draper'
+  gem 'faker'
+# 2020/02/25 ここまで初期登録
