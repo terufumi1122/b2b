@@ -112,6 +112,8 @@ GEM
     font-awesome-sass (5.12.0)
       sassc (>= 1.11)
     formatador (0.2.5)
+    gimei (0.4.0)
+      romaji
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     guard (2.16.1)
@@ -237,6 +239,8 @@ GEM
       rack (>= 1.4)
     require_all (3.0.0)
     rexml (3.2.4)
+    romaji (0.2.4)
+      rake (>= 0.8.0)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -344,6 +348,7 @@ DEPENDENCIES
   factory_bot_rails
   faker
   font-awesome-sass
+  gimei
   guard-rspec
   guard-rubocop
   jbuilder (~> 2.7)
