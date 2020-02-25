@@ -12,8 +12,6 @@ module AppName
     config.load_defaults 6.0
 
     config.generators do |g|
-      g.template_engine false 
-      g.assets false
       g.helper false
       g.test_framework :rspec,
                         view_specs: false,
