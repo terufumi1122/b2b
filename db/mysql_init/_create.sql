@@ -1,2 +1,2 @@
-CREATE DATABASE app_name_development;
-CREATE DATABASE app_name_test;
+CREATE DATABASE app_name_development DEFAULT CHARACTER SET utf8mb4;
+CREATE DATABASE app_name_test DEFAULT CHARACTER SET utf8mb4;
