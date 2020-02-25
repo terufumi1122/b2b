@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+}
+
+.debug-header{
+  width: 100%;
+  padding: 20px;
+  background-color: lightgray;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+
+  nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    ul{
+      display: flex;
+      list-style: none;
+
+      li{
+        padding: 10px;
+      }
+    }
+  }
+}
