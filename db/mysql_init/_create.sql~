@@ -1,2 +1,3 @@
 CREATE DATABASE app_name_development DEFAULT CHARACTER SET utf8mb4;
+<<<<<<< HEAD
 CREATE DATABASE app_name_test DEFAULT CHARACTER SET utf8mb4;

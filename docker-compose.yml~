@@ -13,7 +13,8 @@ services:
       #永続化するときにマウントするdir
       - ./db/mysql_data:/var/lib/mysql
       #設定ファイル
-      - ./db/my.cnf:/etc/mysql/conf.d/my.cnf
+      - .db/mysql_cnf/my.cnf:/etc/mysql/conf.d/my.cnf
+>>>>>>> parent of f1c5bc6... Merge pull request #22 from terufumi1122/revert-21-feature/create_header
 
   web:
     build: .
