@@ -13,7 +13,7 @@ services:
       #永続化するときにマウントするdir
       - ./db/mysql_data:/var/lib/mysql
       #設定ファイル
-      - .db/mysql_cnf/my.cnf:/etc/mysql/conf.d/my.cnf
+      - ./db/mysql_cnf/my.cnf:/etc/mysql/conf.d/my.cnf
 
   web:
     build: .
