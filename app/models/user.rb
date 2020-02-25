@@ -4,6 +4,6 @@ class User < ApplicationRecord
   with_options presence: true do
     validates :first_name
     validates :last_name
-    validates :email, uniqueness: { case_sensitive: false }
+    validates :email, uniqueness: { case_sensitive: true }
   end
 end
