@@ -76,3 +76,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
   gem 'draper'
   gem 'faker'
 # 2020/02/25 ここまで初期登録
+  gem 'gimei'
