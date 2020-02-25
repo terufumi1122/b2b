@@ -35,7 +35,7 @@ group :development, :test do
   # 2020/02/25 初期登録
   gem 'pry-rails'
   gem 'pry-byebug'
-  gem 'factory-bot-rails'
+  gem 'factory_bot_rails'
   gem 'rails_best_practices'
   gem 'guard-rspec', require: false
   gem 'guard-rubocop', require: false
